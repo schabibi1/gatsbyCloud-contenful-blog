@@ -1,0 +1,124 @@
+.top-subtitle {
+  margin-bottom: 0.5rem;
+  color: #999999;
+}
+
+.top-title {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+button {
+  background: #663399;
+  border-radius: 4px;
+  padding: .6rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 3rem 1rem 0 0;
+
+  &:hover {
+    background: #8f69b6;
+    cursor: pointer;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.posts {
+  list-style-type: none;
+  margin: 6rem 0;
+}
+
+.post {
+  margin: 1rem 0;
+
+  a {
+    padding: 1.8rem 1rem;
+    background: #f8f4f4;
+    color: #663399;
+    display: block;
+    text-decoration: none;
+    border-radius: 8px;
+    border-bottom: 5px solid #add8e6;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-weight: 900;
+  }
+
+  h3 {
+    color: #777777;
+    font-size: .8rem;
+    font-style: italic;
+    padding: .5rem 0;
+  }
+}
+
+.tag-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tags {
+  padding: .5rem 1rem;
+  margin: .5rem .5rem .5rem 0;
+  color: #ffffff;
+  border-radius: .2rem;
+  width: fit-content;
+
+  background: -moz-linear-gradient(#add8e6, #8f69b6);
+  background: -webkit-linear-gradient(#add8e6, #8f69b6);
+  background: linear-gradient(to right, #add8e6, #8f69b6);
+}
+
+.price-tags {
+  padding: .5rem 1rem;
+  margin: .5rem .5rem .5rem 0;
+  color: #ffffff;
+  border-radius: .2rem;
+  width: fit-content;
+
+  background: -moz-linear-gradient(#bde6ad, #fae20de8);
+  background: -webkit-linear-gradient(#bde6ad, #fae20de8);
+  background: linear-gradient(to right, #bde6ad, #fae20de8);
+}
+
+@media (min-width: 1050px) {
+  .post {
+    a {
+      background: #f8f4f4;
+      color: #663399;
+      display: block;
+      padding: 2rem 3rem 3rem 3rem;
+      text-decoration: none;
+      border-radius: 8px;
+      border-bottom: 5px solid #add8e6;
+    }
+
+    &:hover {
+      background: #f3f2f2;
+    }
+
+    .careerImg {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  .category {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+}

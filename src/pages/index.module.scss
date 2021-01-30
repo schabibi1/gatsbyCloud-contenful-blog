@@ -1,0 +1,48 @@
+.top-wrapper {
+  display: block;
+}
+
+.top-subtitle {
+  margin-bottom: 0.5rem;
+  color: #999999;
+}
+
+.top-title {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+button {
+  background: #663399;
+  border-radius: 4px;
+  padding: .6rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 3rem 1rem 0 0;
+
+  &:hover {
+    background: #8f69b6;
+    cursor: pointer;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.top-image {
+  max-width: 90%;
+  margin: 5rem 0 0 0;
+}
+
+@media (min-width: 1050px) {
+  .top-wrapper {
+    display: flex;
+  }
+
+  .top-image {
+    width: 55%;
+    margin: 0;
+  }
+}

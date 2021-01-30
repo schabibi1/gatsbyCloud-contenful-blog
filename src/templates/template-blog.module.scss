@@ -1,0 +1,27 @@
+.entry-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 2rem 0 .8rem 0;
+}
+
+h4 {
+  margin-bottom: 2.5rem;
+  color: #999999;
+}
+
+.tags {
+  padding: .5rem 1rem;
+  margin: .5rem 0;
+  color: #ffffff;
+  border-radius: .2rem;
+  width: fit-content;
+
+  background: -moz-linear-gradient(#add8e6, #8f69b6);
+  background: -webkit-linear-gradient(#add8e6, #8f69b6);
+  background: linear-gradient(to right, #add8e6, #8f69b6);
+}
+
+.blog-image {
+  max-width: 100%;
+  margin: 3rem 0;
+}

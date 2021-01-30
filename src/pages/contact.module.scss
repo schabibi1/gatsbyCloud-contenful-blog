@@ -1,0 +1,40 @@
+.top-subtitle {
+  margin-bottom: 0.5rem;
+  color: #999999;
+}
+
+.top-title {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+button {
+  background: #663399;
+  border-radius: 4px;
+  padding: .6rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 3rem 1rem 0 0;
+
+  &:hover {
+    background: #8f69b6;
+    cursor: pointer;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+.twitter-color {
+  background: #1da1f2;
+}
+
+.github-color {
+  background: #24292e;
+}
