@@ -1,16 +1,18 @@
-.main-flex {
-  display: block;
-  margin: 16rem 0 0 0;
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 6rem 0 0 0;
   text-align: center;
 }
 
-.main-flex-margin {
+.main-grid-margin {
   display: block;
   margin: 7rem 0 0 0;
   text-align: center;
 }
 
-.main-flex-reverse {
+.main-grid-reverse {
   display: block;
   margin: 4rem 0 0 0;
   text-align: center;
@@ -32,31 +34,32 @@ a {
 }
 
 @media (min-width: 1050px) {
-  .main-flex {
-    display: flex;
+  .main-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     margin: 14rem 0;
   }
 
-  .main-flex-margin {
+  .main-grid-margin {
     display: flex;
     margin: 10rem 0 0 0;
     text-align: center;
   }
 
-  .main-flex-reverse {
+  .main-grid-reverse {
     display: flex;
     flex-direction: row-reverse;
     margin: 5rem 0 0 0;
   }
-  
-  .mainImg {
-    max-width: 55%;
-    margin: 4rem 2rem;
-  }
-  
+
+  // .mainImg {
+  //   // max-width: 55%;
+  //   // margin: 4rem 2rem;
+  // }
+
   .main-desc {
-    padding: 12rem 3rem;
+    padding: 17rem 3rem;
     text-align: justify;
-    max-width: 25rem;
+    /* max-width: 25rem;*/
   }
 }

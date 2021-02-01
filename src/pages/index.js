@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
-import AikidoProgrammingImg from '../images/aikido_programming_img.png'
+import AikidoProgrammingImg from '../images/aikido_programming_img.svg'
 import indexStyles from './index.module.scss'
 
 const IndexPage = () => {

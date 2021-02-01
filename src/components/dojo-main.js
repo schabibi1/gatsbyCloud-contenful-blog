@@ -1,15 +1,15 @@
 import React from 'react'
 
-import StudyingImg from '../images/studying.png'
-import Certified from '../images/certified.png'
-import CareerChange from '../images/career-change.png'
-import AikidoProgrammingSmall from '../images/aikido_programming_img_small.png'
+import StudyingImg from '../images/studying.svg'
+import Certified from '../images/certified.svg'
+import CareerChange from '../images/career-change.svg'
+import AikidoProgrammingSmall from '../images/aikido_programming_img_small.svg'
 import aboutMainStyles from './about-main.module.scss'
 
 const DojoMain = () => {
   return (
     <main>
-      <div className={aboutMainStyles.mainFlex}>
+      <div className={aboutMainStyles.mainGrid}>
         <img src={StudyingImg} alt="StudyingImg" className={aboutMainStyles.mainImg} />
         <div className={aboutMainStyles.mainDesc}>
           My students have various goals. Mostly, they want to be developers, being interested in full remote work, etc...
@@ -17,7 +17,7 @@ const DojoMain = () => {
         </div>
       </div>
 
-      <div className={aboutMainStyles.mainFlexReverse}>
+      <div className={aboutMainStyles.mainGrid}>
         <img src={Certified} alt="Certified" className={aboutMainStyles.mainImg} />
         <div className={aboutMainStyles.mainDesc}>
           I have 3 years experience of teaching over 40 students. 8 of my students got job offers as developers in Japanese companies &amp; German company, and gained the career as freelance developers.
@@ -25,7 +25,7 @@ const DojoMain = () => {
         </div>
       </div>
 
-      <div className={aboutMainStyles.mainFlexMargin}>
+      <div className={aboutMainStyles.mainGrid}>
         <img src={CareerChange} alt="CareerChange" className={aboutMainStyles.mainImg} />
         <div className={aboutMainStyles.mainDesc}>
           My mission is to let people know programming is fun.
@@ -34,7 +34,7 @@ const DojoMain = () => {
         </div>
       </div>
 
-      <div className={aboutMainStyles.mainFlexReverse}>
+      <div className={aboutMainStyles.mainGrid}>
         <img src={AikidoProgrammingSmall} alt="AikidoProgrammingSmall" className={aboutMainStyles.mainImg} />
         <div className={aboutMainStyles.mainDesc}>
           All personalized freelance tips are here to get job offers and to control work-life balance.

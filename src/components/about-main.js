@@ -1,15 +1,15 @@
 import React from 'react'
 
-import AikidoImg from '../images/aikido_img.png'
+import AikidoImg from '../images/aikido_img.svg'
 import LilacLogo from '../images/lilac-about.png'
-import DeJpImg from '../images/de_jp_img.png'
-import FullStackImg from '../images/full_stack_img.png'
+import DeJpImg from '../images/de_jp_img.svg'
+import FullStackImg from '../images/full_stack_img.svg'
 import aboutMainStyles from './about-main.module.scss'
 
 const AboutMain = () => {
   return (
     <main>
-      <div className={aboutMainStyles.mainFlex}>
+      <div className={aboutMainStyles.mainGrid}>
         <img src={AikidoImg} alt="aikidoImg" className={aboutMainStyles.mainImg} />
         <div className={aboutMainStyles.mainDesc}>
           I've been trained Aikido in Germany. Endlessly, I can talk about the benefit from Aikido and Budo.
@@ -17,7 +17,7 @@ const AboutMain = () => {
         </div>
       </div>
 
-      <div className={aboutMainStyles.mainFlexReverse}>
+      <div className={aboutMainStyles.mainGrid}>
         <img src={LilacLogo} alt="LilacLogo" className={aboutMainStyles.mainImg} />
         <div className={aboutMainStyles.mainDesc}>
           I love teaching programming. I've taught programming 2 years in CodeGrit. Currently, I teach and create textbooks in <a href="https://zenn.dev/arisa_dev" target="_blank" rel="noopener noreferrer">Lilac</a>. I'm a founder of <a href="https://zenn.dev/arisa_dev" target="_blank" rel="noopener noreferrer">Lilac</a> as well.
@@ -25,7 +25,7 @@ const AboutMain = () => {
         </div>
       </div>
 
-      <div className={aboutMainStyles.mainFlexMargin}>
+      <div className={aboutMainStyles.mainGrid}>
         <img src={DeJpImg} alt="deJpImg" className={aboutMainStyles.mainImg} />
         <div className={aboutMainStyles.mainDesc}>
           I'm from Japan. Currently, I've been living in Germany since 2017 with my programmer job.
@@ -34,7 +34,7 @@ const AboutMain = () => {
         </div>
       </div>
 
-      <div className={aboutMainStyles.mainFlexReverse}>
+      <div className={aboutMainStyles.mainGrid}>
         <img src={FullStackImg} alt="fullStackImg" className={aboutMainStyles.mainImg} />
         <div className={aboutMainStyles.mainDesc}>
           I build websites and web apps. My favorite frameworks and libraries are Gastby.js and React.

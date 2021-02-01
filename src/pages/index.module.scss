@@ -1,5 +1,7 @@
 .top-wrapper {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .2fr 1fr;
 }
 
 .top-subtitle {
@@ -32,17 +34,16 @@ button {
 }
 
 .top-image {
-  max-width: 90%;
   margin: 5rem 0 0 0;
 }
 
 @media (min-width: 1050px) {
   .top-wrapper {
-    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
   .top-image {
-    width: 55%;
     margin: 0;
   }
 }
