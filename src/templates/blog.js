@@ -44,7 +44,7 @@ const Blog = (props) => {
       }
     }
   }
-  
+
   return (
     <Layout>
       <Helmet
